@@ -16,9 +16,9 @@ import java.util.logging.Logger;
 public class DatabaseHelper {
 
     Connection conn = null;
-    String user = "s368925";
-    String password = "5mCSFOGOnfrbfJeC";
-    String url = "jdbc:postgresql://localhost:5432/studs";
+    String user = "login";  //change on your login
+    String password = "pass";  //change on your pass
+    String url = "url";  //change on your url
     private Logger logger = Logger.getLogger("logger");
     public static final Set<Long> IDs = new LinkedHashSet<>();
 
